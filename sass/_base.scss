@@ -1,0 +1,69 @@
+.titulo{
+	color: $color-tipografias;
+	font-size:30px;
+	font-weight: bold;
+	span{
+		color:$color-fechas;
+	}
+}
+.titulo2{
+	border-bottom: $borde-seccion;
+	color: $color-tipografias;
+	font-weight: bold;
+	font-size:18px;
+}
+.nav-wrapper{
+	background-color: $fondo;
+	border-bottom: $borde-seccion;
+	a{
+		color: $color-tipografias;
+	}
+	a:hover{
+		border-bottom: $borde-palabra;
+	}
+}
+.fondo, .fondo2, .fondo3, .fondo4{
+	margin: 5px;
+}
+.fondo{
+	@extend .fondog;
+	background-image: url(../img/1.png);
+	height: 330px;
+}
+.fondo2{
+	@extend .fondog;
+	background-image: url(../img/6.png);
+	height: 210px;
+}
+.fondo3{
+	@extend .fondog;
+	background-image: url(../img/13.png);
+	height:105px;
+}
+.fondo4{
+	@extend .fondog;
+	background-image: url(../img/4-1.png);
+	height: 105px;
+}
+.fondo5{
+	@extend .fotop;
+	background-image: url(../img/5-1.png);
+}
+.fondo6{
+	@extend .fotop;
+	background-image: url(../img/6-1.png);
+}
+.fondo7{
+	@extend .fotop;
+	background-image: url(../img/3.png);
+}
+.fondo8{
+	@extend .fotop;
+	background-image: url(../img/8.png);
+}
+.fotos{
+	margin-top:10px;
+}
+section{
+	margin-top:40px;
+}

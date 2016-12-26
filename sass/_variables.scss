@@ -1,0 +1,33 @@
+$color-fechas: #ea4748;
+$color-tipografias: #686868;
+$fondo: white;
+$borde-seccion: 2px #ea4748 solid;
+$borde-palabra: 4px #ea4748 solid;
+$borde-fotop: 0.5px #dbdbdb solid;
+
+.subtitulo{
+	color:$color-tipografias;
+	font-size: 20px;
+	font-weight: bold;
+}
+.fondog{
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.fotop{
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 90px;
+}
+.pad{
+	padding:10px;
+	border-bottom: $borde-fotop;
+}
+.fechas{
+	color:$color-fechas;
+	font-size: 15px;
+}
+.texto{
+	color:$color-tipografias;
+	font-size: 15px;
+}
