@@ -11,6 +11,7 @@
 	color: $color-tipografias;
 	font-weight: bold;
 	font-size:18px;
+	margin-bottom: 10px;
 }
 .nav-wrapper{
 	background-color: $fondo;
@@ -61,9 +62,35 @@
 	@extend .fotop;
 	background-image: url(../img/8.png);
 }
+.fondolife{
+	@extend .fondog;
+	background-image: url(../img/24.png);
+	height:180px;
+	margin-top: 5px;
+}
 .fotos{
 	margin-top:10px;
 }
 section{
 	margin-top:40px;
+}
+//estrellas
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+
+  span{
+  	color:$color-tipografias;
+  }
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color:$color-fechas;
 }
